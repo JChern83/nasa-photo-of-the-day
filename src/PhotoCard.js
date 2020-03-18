@@ -7,7 +7,7 @@ export default function PhotoCard(){
 
     useEffect(() => {
 
-        axios.get(`https://api.nasa.gov/planetary/apod?api_key=poabCixXn4ymsmjXAxgjv37wfeUduqaRvmfSLuX1`)
+        axios.get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=2012-03-14`)
         .then(response => {
         console.log(response);
         setPhotoData(response.data);

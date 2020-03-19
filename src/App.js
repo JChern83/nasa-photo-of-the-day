@@ -2,14 +2,16 @@ import React from "react";
 import "./App.css";
 import Header from "./Header";
 import PhotoCard from "./PhotoCard";
+import {Badge} from "reactstrap";
+
 
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <PhotoCard/>
-  </div>
-);
+      <Header/>
+      <PhotoCard/>
+    </div>
+  );
 }
 
 export default App;
